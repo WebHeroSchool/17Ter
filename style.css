@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;;
+}
+
+.menu {
+  position: relative;
+  display: flex;
+  
+}
+
+h1 {
+  text-align: center;
+}
+
+@media (min-width:320px) {
+  body {
+    font-size: 28px;
+  }
+}
+
+@media (min-width:481px) {
+  body {
+    font-size: 32px;
+  }
+}
+
+@media (min-width:641px) {
+  body {
+    font-size: 36px;
+  }
+}
+
+@media (min-width:961px) {
+  body {
+    font-size: 40px;
+  }
+  
+}
+@media (min-width:1025px) {
+  body {
+    font-size: 44px;
+  }
+}
+
+@media (min-width:1281px) {
+  body {
+    font-size: 48px;
+  }
+}
