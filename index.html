@@ -7,27 +7,20 @@
     <link rel="stylesheet" href="style.css" type="text/css">
   </head>
   <body>
-    <header class = "header">
-      <div class="container header__container">
-        <div class="menu-burger__header">
-          <span></span>
-        </div>
-        <nav class="header__nav">
-          <ul class="menu header__menu">
-            <li><a href="" class="menu__item">Главная</a></li>
-            <li><a href="" class="menu__item">Обучение</a></li>
-            <li><a href="" class="menu__item">Снаряжение</a></li>
-            <li><a href="" class="menu__item">Информация</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-    <div class="content-wrapper">
-      <div class = "container content-wrapper__container">
-        <p>
-          Миллионы людей одевают акваланги и отправляются в подводный мир, для того чтобы прикоснуться к его красоте, неповторимым подводным пейзажам, встретится с его подводными обитателями.
-        </p>        
-      </div>    
+  	<div class="hamburger-menu">
+      <input id="menu__toggle" type="checkbox" />
+      <label class="menu__btn" for="menu__toggle">
+        <span></span>
+      </label>
+      <ul class="menu__box">
+        <li><a class="menu__item" href="#">Главная</a></li>
+        <li><a class="menu__item" href="#">Обучение</a></li>
+        <li><a class="menu__item" href="#">Снаряжение</a></li>
+        <li><a class="menu__item" href="#">Информация</a></li>
+      </ul>
     </div>
+    <article>
+      <p>Миллионы людей одевают акваланги и отправляются в подводный мир, для того чтобы прикоснуться к его красоте, неповторимым подводным пейзажам, встретится с его подводными обитателями.</p>
+    </article>   
   </body>
 </html>
