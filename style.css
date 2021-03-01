@@ -94,7 +94,7 @@ p {
     }
 }
 
-media (max-width: 7684px) {
+@media (max-width: 7684px) {
   .menu__btn {
     display: none;
   }
